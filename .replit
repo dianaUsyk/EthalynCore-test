@@ -1,0 +1,29 @@
+modules = ["python-3.12"]
+
+[nix]
+channel = "stable-25_05"
+
+run = "uvicorn main:app --reload --host=0.0.0.0 --port=8000"
+
+[packager]
+language = "python3"
+ignoredPackages = []
+
+[unitTest]
+language = "python3"
+pattern = "test_.*.py"
+
+[deployment]
+type = "webapp"
+
+[workflows]
+runButton = "Run FastAPI"
+
+[[workflows.workflow]]
+name = "Run FastAPI"
+author = 36140083
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd EthalynRouter_FULL && uvicorn main:app --reload --host=0.0.0.0 --port=8000"
