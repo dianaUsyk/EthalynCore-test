@@ -1,0 +1,1 @@
+# Демонстрація API виклику GPT з composer prompt
