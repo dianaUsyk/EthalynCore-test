@@ -1,10 +1,9 @@
-# Активний робочий режим (перезаписується при кожному snapshot)
 mode:
-  depth: "deep"
-  tone: "technical"
-  focus: "Стала пам'ять та snapshot-процес"
-  timebox: "60m"
+  depth: deep
+  tone: technical
+  focus: Підключення n8n webhook
+  timebox: 30m
   constraints:
-    - "без метафор у технічному шарі"
-    - "короткі, інформативні коміти"
-  started_at: "2025-08-09T17:39:29+00:00"
+    - без метафор у технічному шарі
+    - короткі, інформативні коміти
+  started_at: 2025-08-09T21:57:59+00:00
