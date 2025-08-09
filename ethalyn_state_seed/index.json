@@ -1,0 +1,26 @@
+{
+  "version": "1.0.1",
+  "updated_at": "2025-08-09T21:10:33+00:00",
+  "repo": "https://github.com/dianaUsyk/EthalynCore-test",
+  "raw_base": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main",
+  "files": {
+    "cursor": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/cursor.yaml",
+    "mode": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/mode.yaml",
+    "changelog_current": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/changelog/2025-08.md",
+    "readme": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/README.md",
+    "webhook_example": "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/webhook/payload_example.json"
+  },
+  "instructions": {
+    "snapshot": [
+      "Оновити cursor.yaml (де зупинились, next_action).",
+      "Оновити mode.yaml (активний режим).",
+      "Додати запис у changelog/РІК-ММ.md.",
+      "Зробити commit через n8n webhook або вручну."
+    ],
+    "commands": [
+      "/snapshot",
+      "/mode ...",
+      "/focus ..."
+    ]
+  }
+}
