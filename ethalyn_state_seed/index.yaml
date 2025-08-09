@@ -24,4 +24,8 @@ instructions:
   automation:
     n8n_webhook: "https://n8n.example.com/webhook/save-cursor"
     github_branch: "main"
-updated_at: "2025-08-09T21:00+03:00"
+endpoints:
+  primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/index.yaml"
+  mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/index.yaml"
+cache_test_stamp: "2025-08-09T21:33+03:00"
+updated_at: "2025-08-09T21:33+03:00"
