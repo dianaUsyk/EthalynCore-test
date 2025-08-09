@@ -27,5 +27,24 @@ instructions:
 endpoints:
   primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/index.yaml"
   mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/index.yaml"
-cache_test_stamp: "2025-08-09T21:33+03:00"
-updated_at: "2025-08-09T21:33+03:00"
+files_abs:
+  cursor:
+    primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/cursor.yaml"
+    mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/cursor.yaml"
+  mode:
+    primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/mode.yaml"
+    mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/mode.yaml"
+  changelog_current:
+    primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/changelog/2025-08.md"
+    mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/changelog/2025-08.md"
+  readme:
+    primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/README.md"
+    mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/README.md"
+  webhook_example:
+    primary: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main/ethalyn_state_seed/webhook/payload_example.json"
+    mirror:  "https://cdn.jsdelivr.net/gh/dianaUsyk/EthalynCore-test@main/ethalyn_state_seed/webhook/payload_example.json"
+
+# оновлю для тесту кешу
+cache_test_stamp: "2025-08-09T21:55+03:00"
+updated_at: "2025-08-09T21:55+03:00"
+
