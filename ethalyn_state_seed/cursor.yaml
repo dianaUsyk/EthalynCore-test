@@ -1,12 +1,11 @@
-# Поточний курсор роботи (перезаписується при кожному snapshot)
-project: "Ethalyn Core"
-space: "Кімната Ініціативи"
-topic: "Стала пам'ять / Snapshot-потік"
-stage: "Стартова ініціалізація"
-next_action: "Під’єднати n8n webhook для snapshot-комітів у GitHub"
+project: Ethalyn Core
+space: Кімната Ініціативи
+topic: Стала пам'ять / Snapshot-потік
+stage: Тест n8n webhook
+next_action: Створити мінімальний webhook і зробити коміт у GitHub
 blockers: []
 links:
-  - "repo: https://github.com/dianaUsyk/EthalynCore"
-timebox: "60m"
-mode: "deep-tech"
-updated_at: "2025-08-09T17:39:29+00:00"
+  - repo: https://github.com/dianaUsyk/EthalynCore-test
+timebox: 30m
+mode: deep-tech
+updated_at: 2025-08-09T21:57:59+00:00
