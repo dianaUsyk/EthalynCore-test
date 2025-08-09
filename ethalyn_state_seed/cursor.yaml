@@ -1,11 +1,1 @@
-project: Ethalyn Core
-space: Кімната Ініціативи
-topic: Стала пам'ять / Snapshot-потік
-stage: Тест n8n webhook
-next_action: Створити мінімальний webhook і зробити коміт у GitHub
-blockers: []
-links:
-  - repo: https://github.com/dianaUsyk/EthalynCore-test
-timebox: 30m
-mode: deep-tech
-updated_at: 2025-08-09T21:57:59+00:00
+
