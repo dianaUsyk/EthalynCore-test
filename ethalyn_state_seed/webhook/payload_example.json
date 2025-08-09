@@ -1,0 +1,42 @@
+{
+  "cursor": {
+    "project": "Ethalyn Core",
+    "space": "Кімната Ініціативи",
+    "topic": "Стала пам'ять / Snapshot-потік",
+    "stage": "Стартова ініціалізація",
+    "next_action": "Під’єднати n8n webhook для snapshot-комітів у GitHub",
+    "blockers": [],
+    "links": [
+      "repo: https://github.com/dianaUsyk/EthalynCore"
+    ],
+    "timebox": "60m",
+    "mode": "deep-tech",
+    "updated_at": "2025-08-09T17:39:29+00:00"
+  },
+  "mode": {
+    "depth": "deep",
+    "tone": "technical",
+    "focus": "Стала пам'ять та snapshot-процес",
+    "timebox": "60m",
+    "constraints": [
+      "без метафор у технічному шарі",
+      "короткі, інформативні коміти"
+    ],
+    "started_at": "2025-08-09T17:39:29+00:00"
+  },
+  "changelog_entry": "- snapshot: оновлено cursor/mode; додано запис у changelog",
+  "files": [
+    {
+      "path": "cursor.yaml",
+      "content": "# Поточний курсор роботи (перезаписується при кожному snapshot)\nproject: \"Ethalyn Core\"\nspace: \"Кімната Ініціативи\"\ntopic: \"Стала пам'ять / Snapshot-потік\"\nstage: \"Стартова ініціалізація\"\nnext_action: \"Під’єднати n8n webhook для snapshot-комітів у GitHub\"\nblockers: []\nlinks:\n  - \"repo: https://github.com/dianaUsyk/EthalynCore\"\ntimebox: \"60m\"\nmode: \"deep-tech\"\nupdated_at: \"2025-08-09T17:39:29+00:00\"\n"
+    },
+    {
+      "path": "mode.yaml",
+      "content": "# Активний робочий режим (перезаписується при кожному snapshot)\nmode:\n  depth: \"deep\"\n  tone: \"technical\"\n  focus: \"Стала пам'ять та snapshot-процес\"\n  timebox: \"60m\"\n  constraints:\n    - \"без метафор у технічному шарі\"\n    - \"короткі, інформативні коміти\"\n  started_at: \"2025-08-09T17:39:29+00:00\"\n"
+    },
+    {
+      "path": "changelog/2025-08.md",
+      "content": "# Changelog — 2025-08\n\n## 2025-08-09\n- init: додано `cursor.yaml`, `mode.yaml`, `changelog/2025-08.md`, `webhook/payload_example.json`.\n- рішення: GitHub як джерело читання; snapshot через n8n (Webhook → GitHub commit).\n- наступне: під’єднати webhook у n8n і протестувати `/snapshot` цикл.\n\n---\n\n### Формат запису (шаблон)\n- зміни:\n- чому:\n- посилання: [cursor](/cursor.yaml), [mode](/mode.yaml)\n- наступна дія:\n"
+    }
+  ]
+}

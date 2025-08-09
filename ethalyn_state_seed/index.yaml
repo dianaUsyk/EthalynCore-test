@@ -1,0 +1,27 @@
+# EthalynCore — Index of State Files & Instructions
+repo: "https://github.com/dianaUsyk/EthalynCore"
+raw_base: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore/main"
+files:
+  cursor: "/cursor.yaml"
+  mode: "/mode.yaml"
+  changelog_current: "/changelog/2025-08.md"
+  readme: "/README.md"
+  webhook_example: "/webhook/payload_example.json"
+instructions:
+  description: >
+    Цей файл є єдиною точкою правди для відновлення робочого стану EthalynCore
+    у будь-якому новому чаті чи середовищі. Містить посилання на всі ключові файли
+    та коротку інструкцію, як оновлювати сталу пам'ять.
+  snapshot_process: |
+    1. Оновити cursor.yaml (де зупинились, наступна дія).
+    2. Оновити mode.yaml (активний режим роботи).
+    3. Додати пункт у changelog/РІК-ММ.md (історія змін, розбита помісячно).
+    4. Комітити через n8n webhook або вручну у GitHub.
+  commands:
+    - "/snapshot" — створити знімок стану (оновити cursor, mode, changelog).
+    - "/mode ..." — встановити або змінити активний режим роботи.
+    - "/focus ..." — змінити поточний фокус без зміни глибини.
+  automation:
+    n8n_webhook: "https://n8n.example.com/webhook/save-cursor"
+    github_branch: "main"
+updated_at: "2025-08-09T17:39:29+00:00"
