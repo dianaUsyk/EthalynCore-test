@@ -1,15 +1,15 @@
-# EthalynCore — Index of State Files & Instructions
-repo: "https://github.com/dianaUsyk/EthalynCore"
-raw_base: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore/main"
+# EthalynCore-test — Index of State Files & Instructions
+repo: "https://github.com/dianaUsyk/EthalynCore-test"
+raw_base: "https://raw.githubusercontent.com/dianaUsyk/EthalynCore-test/main"
 files:
-  cursor: "/cursor.yaml"
-  mode: "/mode.yaml"
-  changelog_current: "/changelog/2025-08.md"
-  readme: "/README.md"
-  webhook_example: "/webhook/payload_example.json"
+  cursor: "/ethalyn_state_seed/cursor.yaml"
+  mode: "/ethalyn_state_seed/mode.yaml"
+  changelog_current: "/ethalyn_state_seed/changelog/2025-08.md"
+  readme: "/ethalyn_state_seed/README.md"
+  webhook_example: "/ethalyn_state_seed/webhook/payload_example.json"
 instructions:
   description: >
-    Цей файл є єдиною точкою правди для відновлення робочого стану EthalynCore
+    Єдина точка правди для відновлення робочого стану EthalynCore-test
     у будь-якому новому чаті чи середовищі. Містить посилання на всі ключові файли
     та коротку інструкцію, як оновлювати сталу пам'ять.
   snapshot_process: |
@@ -24,4 +24,4 @@ instructions:
   automation:
     n8n_webhook: "https://n8n.example.com/webhook/save-cursor"
     github_branch: "main"
-updated_at: "2025-08-09T17:39:29+00:00"
+updated_at: "2025-08-09T21:00+03:00"
