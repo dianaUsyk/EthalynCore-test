@@ -1,1 +1,9 @@
-
+mode:
+  depth: deep
+  tone: technical
+  focus: Retry 409 + Respond summary
+  timebox: 25m
+  constraints:
+    - без метафор у технічному шарі
+    - короткі, інформативні коміти
+  started_at: 2025-08-10T00:35:29+00:00
