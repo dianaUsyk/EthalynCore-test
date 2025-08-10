@@ -1,9 +1,1 @@
-mode:
-  depth: deep
-  tone: technical
-  focus: Підключення n8n webhook
-  timebox: 30m
-  constraints:
-    - без метафор у технічному шарі
-    - короткі, інформативні коміти
-  started_at: 2025-08-09T21:57:59+00:00
+
